@@ -9,4 +9,5 @@ jobs:
     container: mcr.microsoft.com/devcontainers/python:1-3.12-bookworm
     steps:
       - name: "Install dependencies"
-        run: ./install-dependencies.sh
+        run: uname -a
+
