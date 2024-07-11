@@ -10,7 +10,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: "Install dependencies"
-        run: "./install-dependencies.sh"
-        run: "which task"
-        run: "task --version"
+        run: |
+          ./install-dependencies.sh
+          which task
+          task --version
         
