@@ -14,4 +14,5 @@ jobs:
           ./install-dependencies.sh
           which task
           task --version
-        
+      - name: "Lint and test"
+        run: 'task'
