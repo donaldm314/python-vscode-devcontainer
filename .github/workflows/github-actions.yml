@@ -1,0 +1,12 @@
+name: CI
+on:
+  push:
+    branches: [main]
+
+jobs:
+  lint-and-unit:
+    runs-on: ubuntu-latest
+    container: mcr.microsoft.com/devcontainers/python:1-3.12-bookworm
+    steps:
+      - name: "Install dependencies"
+        run: ./install-dependencies.sh
