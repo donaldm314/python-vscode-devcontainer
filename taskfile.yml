@@ -1,6 +1,6 @@
 # https://taskfile.dev
 
-version: '3.37'
+version: '3.38'
 
 interval: '100ms'
 

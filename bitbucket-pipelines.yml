@@ -8,7 +8,7 @@ pipelines:
             caches:
                 - pip
             script:
-                - wget https://github.com/go-task/task/releases/download/v3.37.2/task_linux_amd64.deb
+                - wget https://github.com/go-task/task/releases/download/v3.38.0/task_linux_amd64.deb
                 - dpkg -i task_linux_amd64.deb
                 - task --version
                 - pip install pipenv
